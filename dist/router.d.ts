@@ -17,9 +17,7 @@ export interface TradeOptions {
      * The account that should receive the output of the swap.
      */
     recipient: string;
-    /**
-     * The account that should receive referral reward.
-     */
+
     referral: string;
     /**
      * Whether any of the tokens in the path are fee on transfer tokens, which should be handled with special methods
